@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f0f0f0;
+    color: #222;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #740001; /* Vermelho Grifinória */
+    color: #eeba30; /* Dourado */
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+
+nav a:hover, nav a:focus {
+    background-color: #eeba30;
+    color: #740001;
+    border-radius: 4px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #740001;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+p, ul, ol {
+    margin-bottom: 12px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+a {
+    color: #740001;
+}
+
+/* Imagens Responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+/* Form */
+.alerta {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.campo {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus, textarea:focus, button:focus {
+    outline: 2px solid #740001;
+}
+
+button {
+    background-color: #740001;
+    color: #eeba30;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #520001;
+}
+
+footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: #666;
+}
