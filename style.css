@@ -1,121 +1,68 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
+    background-color: white;
+    color: black;
     font-family: Arial, sans-serif;
-    line-height: 1.5;
-    background-color: #f0f0f0;
-    color: #222;
-    padding: 15px;
-    max-width: 800px;
-    margin: 0 auto;
+    margin: 0;
 }
-
 header {
-    background-color: #740001;
-    color: #eeba30;
-    padding: 15px;
+    background-color: black;
+    color: white;
     text-align: center;
-    border-radius: 6px;
-    margin-bottom: 15px;
+    padding: 20px;
 }
-header h1 {
-    margin-bottom: 10px;
-}
-
 nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+    padding: 0;
 }
-
+nav li {
+    display: inline;
+    margin: 10px;
+}
 nav a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-    padding: 4px 8px;
 }
-
-nav a:hover, nav a:focus {
-    background-color: #eeba30;
-    color: #740001;
-    border-radius: 4px;
+nav a:hover {
+    text-decoration: underline;
 }
-
 main {
-    background-color: #fff;
     padding: 20px;
-    border-radius: 6px;
 }
-
-section {
-    margin-bottom: 20px;
-}
-
 h2 {
-    color: #740001;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #ddd;
-}
-
-p, ul, ol {
-    margin-bottom: 12px;
-}
-
-ul, ol {
-    margin-left: 20px;
-}
-
-a {
-    color: #740001;
+    color: black;
 }
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 6px;
-    margin: 10px 0;
 }
-.campo {
-    margin-bottom: 12px;
-}
-label {
+form label {
     display: block;
-    margin-bottom: 4px;
-    font-weight: bold;
+    margin-top: 10px;
 }
-
 input, textarea {
     width: 100%;
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    box-sizing: border-box;
 }
-
-input:focus, textarea:focus, button:focus {
-    outline: 2px solid #740001;
-}
-
 button {
-    background-color: #740001;
-    color: #eeba30;
-    font-weight: bold;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
     cursor: pointer;
 }
-
 button:hover {
-    background-color: #520001;
+    background-color: gray;
 }
-
 footer {
+    background-color: black;
+    color: white;
     text-align: center;
-    margin-top: 15px;
-    font-size: 0.85rem;
-    color: #666;
+    padding: 10px;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid gray;
 }
